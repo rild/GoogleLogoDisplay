@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="jp.rild.android.googlelogodisplay.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/google_blue"
+            android:textSize="42dp"
+            android:text="G" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="42dp"
+            android:textColor="@color/google_red"
+            android:text="o" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="42dp"
+            android:textColor="@color/google_yellow"
+            android:text="o" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="42dp"
+            android:textColor="@color/google_blue"
+            android:text="g" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="42dp"
+            android:textColor="@color/google_green"
+            android:text="l" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="42dp"
+            android:textColor="@color/google_red"
+            android:text="e" />
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/bg_edittext"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginRight="72dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@color/button_bg_color"
+            android:textColor="@color/button_text_color"
+            android:textSize="10dp"
+            android:layout_marginRight="10dp"
+            android:text="GoogleSearch" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:gravity="center"
+            android:background="@color/button_bg_color"
+            android:layout_weight="1"
+            android:textSize="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/button_text_color"
+            android:text="I'm feeling lucky" />
+
+    </LinearLayout>
+
+</LinearLayout>
